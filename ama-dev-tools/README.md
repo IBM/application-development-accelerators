@@ -21,7 +21,7 @@ Identify changes required to upgrade Java code and automatically update the rele
 
 ## Quick start
 
-- Install IBM Application Modernization Accelerator Developer Tools for [VS Code](link to marketplace page)
+- Install IBM Application Modernization Accelerator Developer Tools
 - Select the application project for modernization
 - Select and access available features from context menu
 

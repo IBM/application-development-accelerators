@@ -14,13 +14,10 @@ By downloading this extension, you agree to the terms of [IBM Application Modern
 
 Analyze your legacy enterprise Java application and modernize it to use a more lightweight, flexible, and efficient runtime. Receive a prescriptive plan that describes the changes that are needed to modernize your application with a detailed assessment of complexity and required development effort. Use automation to quickly implement code and configuration changes.
 
-![Java runtime modernization](https://raw.githubusercontent.com/IBM/application-development-accelerators/refs/heads/main/ama-dev-tools/images/vscode/modernize_to_liberty.png)
 
 ### **Java version upgrade**
 
 Identify changes required to upgrade Java code and automatically update the relevant application code. Receive a prescriptive plan that describes the changes that are needed to upgrade your application with a detailed assessment of complexity and required development effort. Use automation to quickly implement code changes.
-
-![Java version upgrade](https://raw.githubusercontent.com/IBM/application-development-accelerators/refs/heads/main/ama-dev-tools/images/vscode/java-upgrade.png)
 
 ## Quick start
 

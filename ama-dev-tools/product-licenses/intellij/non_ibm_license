@@ -1,6 +1,6 @@
 TERMS AND CONDITIONS FOR SEPARATELY LICENSED CODE
 
-IBM Application Modernization Accelerator Developer Tools 1.0
+IBM Application Modernization Accelerator Developer Tools 2.0
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -20,6 +20,7 @@ shipped with, the Program as Licensee installed it.
 
 The following are Separately Licensed Code:
 
+caniuse-lite
 plex
 plex-mono
 plex-sans
@@ -35,9 +36,25 @@ TABLE OF CONTENTS
 
 THIS NON-IBM-LICENSE FILE CONSISTS OF THE FOLLOWING SECTIONS:
 
+CC-BY-4.0
 OFL-1.1
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+CREATIVE COMMONS ATTRIBUTION 4.0
+
+The Program includes some or all of the following works licensed under
+the Creative Commons.
+The url to the license is https://creativecommons.org/licenses/by/4.0/legalcode
+
+caniuse-lite | Copyright not found (caniuse.com) | https://www.npmjs.com/package/caniuse-lite/
+
+END OF CREATIVE COMMONS ATTRIBUTION 4.0 NON-IBM-LICENSE INFORMATION
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 SIL Open Font License 1.1
 
@@ -152,6 +169,6 @@ END OF NON-IBM-LICENSE INFORMATION
 END OF NON-IBM-LICENSE INFORMATION FILE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-L/N: L-PMKJ-4ADC94
-D/N: L-PMKJ-4ADC94
-P/N: L-PMKJ-4ADC94
+L/N: L-XFMJ-LE6BU6
+D/N: L-XFMJ-LE6BU6
+P/N: L-XFMJ-LE6BU6

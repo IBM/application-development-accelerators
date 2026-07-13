@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Application Modernization Accelerator Developer Tools 1.1.x
+IBM Application Modernization Accelerator Developer Tools 2.0
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -9,9 +9,8 @@ above ("the Program").
 
 Notwithstanding the terms and conditions of any other agreement Licensee
 may have with IBM or any of its related or affiliated entities
-(collectively "IBM"), the third party code identified below is subject
-to the terms and conditions of the IBM license agreement for the Program
-and not the license terms that may be contained in the notices below.
+(collectively "IBM"), the following licenses apply to the applicable
+third party code included in this application.
 The notices are provided for informational purposes.
 
 Please note: This Notices file may identify information that is not used
@@ -35,12 +34,11 @@ BSD 2 Clause license (BSD-2-CLAUSE)
 BSD 3 Clause license (BSD-3-CLAUSE)
 Blue Oak Model License (Blueoak 1.0.0)
 COMMON DEVELOPMENT AND DISTRIBUTION LICENSE V1.1 (CDDL V1.1)
-ECLIPSE PUBLIC LICENSE, VERSION 1 (EPL)
-ECLIPSE PUBLIC LICENSE, VERSION 2 (EPL V2)
+ECLIPSE PUBLIC LICENSE, VERSION 1 (EPL 1)
 ISC License (ISC)
 MIT license (MIT)
 Mozilla Pubic License, Version 1.1 (MPL 1.1)
-UNICODE LICENSE V3 (Unicode-3.0)
+
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Apache License, Version 2.0
@@ -48,16 +46,14 @@ Apache License, Version 2.0
 The Program includes some or all of the following that IBM obtained
 under the Apache License, Version 2.0:
 
-accessors-smart, apiguardian-api, asciilist-j7, asciitable-j7,
-baseline-browser-mapping, chevrotain, colors, commons-cli, commons-codec, 
-commons-compress, commons-io, commons-lang3, cst-dts-gen, detect-libc, 
-dompurify, error_prone_annotations, failureaccess, feature-flags, freemarker, 
-gast, gradle-tooling-api, grid, gson, guava, helpers, icon-helpers, 
-icons-react, j2objc-annotations, java-parser, johnzon-core,
-json-path, json-smart, jsr305, justify, layout, log4js, maven-invoker,
-maven-model, motion, number, opentest4j, picocli, plexus-utils, react,
-regexp-to-ast, sass, snakeyaml, styles, ta-sdk-core, ta-sdk-spi, telemetry-js,
-themes, tinylog-api, tinylog-impl, type, types, typescript, utilities, utils
+asciilist-j7, asciitable-j7, baseline-browser-mapping, chevrotain, 
+colors, ci.common, commons-compress, commons-io, commons-lang3, 
+cst-dts-gen, detect-libc, dompurify, error_prone_annotations, feature-flags, 
+gast, gradle-tooling-api, grid, gson, guava, helpers, icon-helpers,
+icons-react, java-parser, layout, log4js, maven-invoker, maven-model, motion,
+number, picocli, plexus-utils, plexus-xml, react, regexp-to-ast, sass, snakeyaml,
+styles, ta-sdk-core, ta-sdk-spi, telemetry-js, themes, tinylog-api, tinylog-impl,
+type, types, typescript, utilities, utils
 
 
 Apache License
@@ -245,7 +241,7 @@ BSD Zero Clause license
 The Program includes some or all of the following that IBM obtained
 under the BSD Zero Clause license:
 
-expand-home-dir (Copyright Not Found)
+expand-home-dir(Copyright Not Found)
 tslib (Copyright Microsoft Corporation)
 
 Permission to use, copy, modify, and/or distribute this software for any 
@@ -307,6 +303,7 @@ jakarta.activation-api (Copyright 1997-2018 Oracle and/or its affiliates) (Copyr
 source-map (Copyright 2009-2011 Mozilla Foundation and contributors)
 source-map-js (Copyright 2009-2011 Mozilla Foundation and contributors)
 yuicompressor (Copyright 2001 Robert Penner All rights reserved) (Copyright 2001-2003 Steve Purcell,) (Copyright 2002 Michal Ceresna and) (Copyright 2005 Ewan Mellor) (Copyright 2013 Yahoo!) (Copyright License Agreement (BSD License))
+
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -379,21 +376,6 @@ OSGi System Bundle [org.eclipse.osgi] https://projects.eclipse.org/projects/ecli
 END OF ECLIPSE PUBLIC LICENSE, VERSION 1 NOTICES AND INFORMATION
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ECLIPSE PUBLIC LICENSE, VERSION 2
-
-The Program includes some or all of the following that IBM obtained
-under the ECLIPSE PUBLIC LICENSE, VERSION 2 (source code available via the indicated URL):
-
-jakarta.json-api(https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.0.0)
-junit-jupiter-api(https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.10.2)
-junit-jupiter-engine(https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.10.2)
-junit-platform-commons(https://mvnrepository.com/artifact/org.junit.platform/junit-platform-commons/1.10.2)
-junit-platform-engine(https://mvnrepository.com/artifact/org.junit.platform/junit-platform-engine/1.10.2)
-
-
-END OF ECLIPSE PUBLIC LICENSE, VERSION 2 NOTICES AND INFORMATION
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ISC License
 
 The Program includes some or all of the following that IBM obtained
@@ -434,13 +416,12 @@ under the MIT license:
 
 balanced-match (Copyright Isaac Z. Schlueter "i@izs.me" mailto:i@izs.me) (Copyright Julian Gruber "julian@juliangruber.com" mailto:julian@juliangruber.com)
 brace-expansion (Copyright Isaac Z. Schlueter <i@izs.me>) (Copyright Julian Gruber <julian@juliangruber.com>)
-braces (Copyright 2014 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
-browserslist (Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors)
+browserslist (Copyright 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors)
 buffer-from (Copyright 2016-2018 Linus Unneb)
 chart-3.9.1.min.js (Copyright 2014-2022 Chart.js Contributors) (Copyright 2022 Chart.js Contributors) (Copyright 2022 Jukka Kurkela)
-checker-qual (Copyright 2004 by the Checker Framework developers)
 chevrotain-allstar (Copyright 2022 TypeFox GmbH)
 chokidar (Copyright 2012 Paul Miller (https://paulmillr.com), Elan Shanker) (Copyright 2013 Paul Miller (http://paulmillr.com)) (Copyright Paul Miller ("https://paulmillr.com" (https://paulmillr.com)), see "LICENSE" (LICENSE) file)
+chokidar (Copyright 2012 Paul Miller https://paulmillr.com; Elan Shanker) (Copyright 2013 Paul Miller (http://paulmillr.com))
 classnames (Copyright 2018 Jed Watson)
 clone-deep (Copyright 2014-2018 Jon Schlinkert) (Copyright 2018 Jon Schlinkert" (https://github.com/jonschlinkert))
 clsx (Copyright Luke Edwards <luke.edwards05@gmail.com> (lukeed.com))
@@ -462,12 +443,12 @@ date-format (Copyright 2013 Gareth Jones)
 debug (Copyright 2014-2017 TJ Holowaychuk <tj@vision-media.ca>) (Copyright 2018-2021 Josh Junon)
 dom (Copyright 2021 Floating UI contributors)
 dom-serializer (Copyright 2014 The cheeriojs contributors)
+dom-serializer (Copyright 2022 The Cheerio contributors)
 downshift (Copyright 2017 PayPal)
 es-toolkit (Copyright 2024 Viva Republica, Inc) (Copyright OpenJS Foundation and other contributors) (Copyright Viva Republica, Inc)
-es-toolkit (Copyright 2024 Viva Republica, Inc) (Copyright Viva Republica, Inc.)
+es-toolkit (Copyright 2024 Viva Republica, Inc) (Copyright Viva Republica, Inc)
 esbuild-windows (Copyright 2020 Evan Wallace)
 escalade (Copyright Luke Edwards) (Copyright Luke Edwards <luke.edwards05@gmail.com> (lukeed.com))
-fill-range (Copyright 2014 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
 find-cache-dir (Copyright James Talmage <james@talmage.io> (github.com/jamestalmage))
 find-up (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 flatpickr (Copyright 2017 Gregory Petrosyan)
@@ -489,6 +470,7 @@ html-dom-parser (Copyright 2016 Menglin "Mark" Xu <mark@remarkablemark.org>)
 html-parse-stringify (Copyright UNSPECIFIED)
 html-react-parser (Copyright 2016 Menglin "Mark" Xu <mark@remarkablemark.org>)
 htmlparser2 (Copyright 2010-2011 Chris Winberry <chris@winberry.net>)
+i18next (Copyright 2011 i18next)
 i18next (Copyright 2025 i18next)
 i18next-browser-languagedetector (Copyright 2025 i18next)
 immediate (Copyright 2012 Barnesandnoble.com, llc, Donavon West, Domenic Denicola, Brian Cavalier)
@@ -498,10 +480,10 @@ invariant (Copyright 2013 Facebook, Inc)
 is-arrayish (Copyright 2015 JD Ballard)
 is-extglob (Copyright 2014-2016 Jon Schlinkert) (Copyright 2016 Jon Schlinkert" (https://github.com/jonschlinkert)) (Copyright 2016 [Jon Schlinkert](https://github.com/jonschlinkert))
 is-glob (Copyright 2014-2017 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
-is-number (Copyright 2014 Jon Schlinkert) (Copyright 2018 Jon Schlinkert" (https://github.com/jonschlinkert)) (Copyright 2018 [Jon Schlinkert](https://github.com/jonschlinkert))
 is-plain-object (Copyright 2014-2017 Jon Schlinkert) (Copyright 2017 Jon Schlinkert" (https://github.com/jonschlinkert))
 isarray (Copyright 2013 Julian Gruber <julian@juliangruber.com>)
 isobject (Copyright 2014-2017 Jon Schlinkert) (Copyright 2017 Jon Schlinkert" (https://github.com/jonschlinkert)) (Copyright 2017 [Jon Schlinkert](https://github.com/jonschlinkert))
+jdk-utils (Copyright 2021 Yan Zhang)
 js-tokens (Copyright 2014-2015 2016, 2017, 2018 Simon Lydell) (Copyright 2014-2018 Simon Lydell)
 jsesc (Copyright Mathias Bynens <https://mathiasbynens.be/>)
 json5 (Copyright 2012-2018 Aseem Kishore)
@@ -519,12 +501,11 @@ lodash.debounce (Copyright jQuery Foundation and other contributors <https://jqu
 lombok (Copyright 2000-2011 INRIA) (Copyright 2009-2021 The Project Lombok Authors) (Copyright 2010 Reinier Zwitserloot)
 loose-envify (Copyright 2015 Andres Suarez <zertosh@gmail.com>)
 make-dir (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
-micromatch (Copyright 2014 Jon Schlinkert) (Copyright 2024 Jon Schlinkert" (https://github.com/jonschlinkert))
 moment (Copyright JS Foundation and other contributors)
 ms (Copyright 2020 Vercel, Inc)
 node (Copyright Microsoft Corporation)
 node-addon-api (Copyright 2017 Node.js API collaborators" (https://github.com/nodejs/node-addon-api#collaborators))
-node-releases (Copyright 2017 Sergey Rubanov (https://github.com/chicoxyzzy))
+node-releases (Copyright 2017 Sergey Rubanov https://github.com/chicoxyzzy)
 object-assign (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 p-limit (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 p-locate (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
@@ -532,7 +513,7 @@ p-try (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com
 pako (Copyright 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn)
 parser (Copyright 2012-2014 various contributors)
 path-exists (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
-picomatch (Copyright 2017 Jon Schlinkert) (Copyright 2017 Jon Schlinkert" (https://github.com/jonschlinkert))
+picomatch (Copyright 2017 Jon Schlinkert) (Copyright 2017 Jon Schlinkert" https://github.com/jonschlinkert)
 pify (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 pirates (Copyright 2016-2018 Ari Porad)
 pkg-dir (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
@@ -545,24 +526,24 @@ react-dom (Copyright 2021 Floating UI contributors)
 react-dom (Copyright Meta Platforms, Inc. and affiliates)
 react-draggable (Copyright 2014-2016 Matt Zabriskie)
 react-fast-compare (Copyright 2017 Evgeny Poberezkin) (Copyright 2018 Formidable Labs)
+react-i18next (Copyright 2015 i18next)
 react-i18next (Copyright 2025 i18next)
 react-is (Copyright Facebook, Inc. and its affiliates)
 react-is (Copyright Meta Platforms, Inc. and affiliates)
-react-property (Copyright Not Found)
+react-property(Copyright Not Found)
 readable-stream (Copyright Node.js contributors)
 readdirp (Copyright 2012-2019 Thorsten Lorenz)
+regenerator-runtime (Copyright 2014 Facebook, Inc)
 register (Copyright 2014 Sebastian McKenzie and other contributors)
 remapping (Copyright 2024 Justin Ridgewell <justin@ridgewell.name>)
 resolve-uri (Copyright 2019 Justin Ridgewell <jridgewell@google.com>)
 rfdc (Copyright 2019 David Mark Clements <david.mark.clements@gmail.com>")
 runtime (Copyright 2014 Sebastian McKenzie and other contributors)
 safe-buffer (Copyright Feross Aboukhadijeh) (Copyright Feross Aboukhadijeh" (http://feross.org))
-sass (Copyright 2016, Google Inc.)
 scheduler (Copyright Meta Platforms, Inc. and affiliates)
 setimmediate (Copyright 2012 Barnesandnoble.com, llc, Donavon West, and Domenic Denicola)
 shallow-clone (Copyright 2015 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
 simple-swizzle (Copyright 2015 Josh Junon)
-slf4j-api (Copyright 2004-2022 QOS.ch Sarl) (QOS.ch)
 slf4j-simple (Copyright 2004-2022 QOS.ch Sarl) (QOS.ch)
 source-map-support (Copyright 2014 Evan Wallace)
 sourcemap-codec (Copyright 2024 Justin Ridgewell <justin@ridgewell.name>)
@@ -572,7 +553,6 @@ style-to-js (Copyright 2020 Menglin "Mark" Xu <mark@remarkablemark.org>)
 style-to-object (Copyright 2017 Menglin "Mark" Xu <mark@remarkablemark.org>)
 tabbable (Copyright 2015 David Clark)
 template (Copyright 2014 Sebastian McKenzie and other contributors)
-to-regex-range (Copyright 2015 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
 toggle-selection (Copyright 2017.0 sudodoki)
 trace-mapping (Copyright 2024 Justin Ridgewell <justin@ridgewell.name>)
 traverse (Copyright 2014 Sebastian McKenzie and other contributors)
@@ -601,7 +581,6 @@ watcher-linux-x64-musl (Copyright 2017 Devon Govett)
 watcher-win32-arm64 (Copyright 2017 Devon Govett)
 watcher-win32-ia32 (Copyright 2017 Devon Govett)
 watcher-win32-x64 (Copyright 2017 Devon Govett)
-window-or-global (Copyright Purpose Industries)
 xml2js (Copyright parser, for whatever reason?)
 xmlbuilder (Copyright 2013 Ozgur Ozcitak)
 
@@ -634,44 +613,7 @@ js-1.7R2.jar (https://mvnrepository.com/artifact/rhino/js/1.7R2)
 END OF MOZILLA PUBLIC LICENSE, VERSION 1.1 NOTICES AND INFORMATION
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-UNICODE LICENSE V3
 
-The Program includes some or all of the following that IBM obtained
-under the UNICODE LICENSE V3:
-
-icu4j (Copyright & terms of use: http://www.unicode.org/copyright.html) (Copyright 1991-2020 Unicode, Inc) (Copyright 1995-2016 International Business Machines Corporation and others) (Copyright 1996 Chih-Hao Tsai @ Beckman Institute,) (Copyright 1999 Computer Systems and Communication Lab,) (Copyright 1999 Pai-Hsiang Hsiao) (Copyright 1999 TaBE Project) (Copyright 2000-2003 Copyright) (Copyright 2006-2008 Google Inc) (Copyright 2006-2011 the V) (Copyright 2010-2016 International Business Machines Corporation and) (Copyright 2013 Brian Eugene Wilson, Robert Martin Campbell) (Copyright 2013 International Business Machines Corporation) (Copyright 2013 LeRoy Benjamin Sharon) (Copyright 2014 International Business Machines Corporation) (Copyright 2016 and later: Unicode, Inc. and others)
-
-NOTICE TO USER: Carefully read the following legal agreement. BY
-DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
-SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
-TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
-DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of data files and any associated documentation (the “Data Files”) or
-software and any associated documentation (the “Software”) to deal in the
-Data Files or Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, and/or sell
-copies of the Data Files or Software, and to permit persons to whom the
-Data Files or Software are furnished to do so, provided that either (a)
-this copyright and permission notice appear with all copies of the Data
-Files or Software, or (b) this copyright and permission notice appear in
-associated Documentation.  THE DATA FILES AND SOFTWARE ARE PROVIDED “AS
-IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.  IN NO EVENT SHALL THE
-COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY
-CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.
-Except as contained in this notice, the name of a copyright holder shall
-not be used in advertising or otherwise to promote the sale, use or other
-dealings in these Data Files or Software without prior written
-authorization of the copyright holder.
-
-END OF UNICODE LICENSE V3 NOTICES AND INFORMATION
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 END OF IBM Application Modernization Accelerator Developer Tools NOTICES AND INFORMATION
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -679,6 +621,6 @@ END OF IBM Application Modernization Accelerator Developer Tools NOTICES AND INF
 END OF NOTICES AND INFORMATION FILE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-L/N: L-XHLP-F4GFJ4
-D/N: L-XHLP-F4GFJ4
-P/N: L-XHLP-F4GFJ4
+L/N: L-XFMJ-LE6BU6
+D/N: L-XFMJ-LE6BU6
+P/N: L-XFMJ-LE6BU6

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Easily and quickly modernize your enterprise Java applications using IBM Application Modernization Accelerator Developer Tools to use a modern Java runtime, the latest enterprise Java APIs, and current Java SE versions.
+Easily and quickly modernize your enterprise Java applications using IBM Application Modernization Accelerator Developer Tools to use a modern Java runtime, the latest enterprise Java APIs, and current Java SE and Java EE / Jakarta EE versions.
 
 ## License
 
@@ -15,9 +15,9 @@ By downloading the IBM Application Modernization Accelerator Developer Tools ext
 Analyze your legacy enterprise Java application and modernize it to use a more lightweight, flexible, and efficient runtime. Receive a prescriptive plan that describes the changes that are needed to modernize your application with a detailed assessment of complexity and required development effort. Use automation to quickly implement code and configuration changes. Migrate JAX-RPC services to JAX-WS services using automation and assistance with a source migration helper.
 
 
-### **Java version upgrade**
+### **Java SE and Java EE / Jakarta EE upgrade**
 
-Identify changes required to upgrade Java code and automatically update the relevant application code. Receive a prescriptive plan that describes the changes that are needed to upgrade your application with a detailed assessment of complexity and required development effort. Use automation to quickly implement code changes.
+Identify changes required to upgrade enterprise Java code and automatically update the relevant application code. Receive a prescriptive plan that describes the changes that are needed to upgrade your application with a detailed assessment of complexity and required development effort. Use automation to quickly implement code changes.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ Identify changes required to upgrade Java code and automatically update the rele
 - Select the application project for modernization
 - Select and access available features from context menu
 
-Usage of IBM Application Modernization Accelerator Developer Tools requires a valid license key or a migration plan from IBM Application Modernization Accelerator.
+Usage of IBM Application Modernization Accelerator Developer Tools requires a valid access key or a migration plan from IBM Application Modernization Accelerator.
 
 ### Requirements
 
@@ -33,7 +33,7 @@ The requirements to use IBM Application Modernization Accelerator Developer Tool
 
 | Item  | Details                                          |
 | ----- | ------------------------------------------------ |
-| Java  | Java SE 8 with Java SDK 8 or a later version   |
+| Java  | Java SE 17 or a later version                    |
 | Maven | Use Maven to build your application              |
 
 For more information, see [documentation](https://www.ibm.com/docs/ama-dev-tools) for IBM Application Modernization Accelerator Developer Tools.

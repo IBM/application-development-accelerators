@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Application Modernization Accelerator Developer Tools 2.0
+IBM Application Modernization Accelerator Developer Tools 2.1
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -34,11 +34,10 @@ BSD 2 Clause license (BSD-2-CLAUSE)
 BSD 3 Clause license (BSD-3-CLAUSE)
 Blue Oak Model License (Blueoak 1.0.0)
 COMMON DEVELOPMENT AND DISTRIBUTION LICENSE V1.1 (CDDL V1.1)
-ECLIPSE PUBLIC LICENSE, VERSION 1 (EPL 1)
+ECLIPSE PUBLIC LICENSE, VERSION 1 (EPL)
+ECLIPSE PUBLIC LICENSE, VERSION 2 (EPL V2)
 ISC License (ISC)
 MIT license (MIT)
-Mozilla Pubic License, Version 1.1 (MPL 1.1)
-
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Apache License, Version 2.0
@@ -46,14 +45,14 @@ Apache License, Version 2.0
 The Program includes some or all of the following that IBM obtained
 under the Apache License, Version 2.0:
 
-asciilist-j7, asciitable-j7, baseline-browser-mapping, chevrotain, 
-colors, ci.common, commons-compress, commons-io, commons-lang3, 
-cst-dts-gen, detect-libc, dompurify, error_prone_annotations, feature-flags, 
-gast, gradle-tooling-api, grid, gson, guava, helpers, icon-helpers,
-icons-react, java-parser, layout, log4js, maven-invoker, maven-model, motion,
-number, picocli, plexus-utils, plexus-xml, react, regexp-to-ast, sass, snakeyaml,
-styles, ta-sdk-core, ta-sdk-spi, telemetry-js, themes, tinylog-api, tinylog-impl,
-type, types, typescript, utilities, utils
+asciilist-j7, asciitable-j7, baseline-browser-mapping, chevrotain, ci.common,
+colors, commons-compress, commons-lang3, cst-dts-gen, detect-libc, dompurify,
+error_prone_annotations, feature-flags, gast, gradle-tooling-api, grid, gson,
+guava, helpers, icon-helpers, icons-react, java-parser, layout, log4js,
+maven-invoker, maven-model, motion, number, picocli, plexus-utils, plexus-xml,
+react, regexp-to-ast, snakeyaml, styles, ta-sdk-core, ta-sdk-spi, telemetry-js,
+temporal-spec, themes, tinylog-api, tinylog-impl, type, types, typescript,
+utilities, utils
 
 
 Apache License
@@ -241,7 +240,7 @@ BSD Zero Clause license
 The Program includes some or all of the following that IBM obtained
 under the BSD Zero Clause license:
 
-expand-home-dir(Copyright Not Found)
+expand-home-dir (Copyright Not Found)
 tslib (Copyright Microsoft Corporation)
 
 Permission to use, copy, modify, and/or distribute this software for any 
@@ -298,12 +297,10 @@ BSD 3 Clause license
 The Program includes some or all of the following that IBM obtained
 under the BSD 3 Clause license:
 
-asm (Copyright 2000-2011 INRIA) (OW2)
+asm (Copyright (c) 2000-2011 INRIA, France Telecom)
 jakarta.activation-api (Copyright 1997-2018 Oracle and/or its affiliates) (Copyright 2018 Oracle and/or its affiliates) (Eclipse Foundation)
 source-map (Copyright 2009-2011 Mozilla Foundation and contributors)
 source-map-js (Copyright 2009-2011 Mozilla Foundation and contributors)
-yuicompressor (Copyright 2001 Robert Penner All rights reserved) (Copyright 2001-2003 Steve Purcell,) (Copyright 2002 Michal Ceresna and) (Copyright 2005 Ewan Mellor) (Copyright 2013 Yahoo!) (Copyright License Agreement (BSD License))
-
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -353,14 +350,16 @@ COMMON DEVELOPMENT AND DISTRIBUTION LICENSE V1.1
 The Program includes some or all of the following that IBM obtained
 under the COMMON DEVELOPMENT AND DISTRIBUTION LICENSE V1.1 (source code available via the indicated URL):
 
-javax.annotation-api-1.3.2.jar (https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar)
-javax.ejb-api (https://repo1.maven.org/maven2/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar)
-javax.jws-api (https://repo1.maven.org/maven2/javax/jws/javax.jws-api/1.1/javax.jws-api-1.1.jar)
-javax.servlet-api (https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar)
-jaxb-api (https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar)
-jaxb-core (https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar)
-jaxb-impl (https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar)
-jaxws-api (https://repo1.maven.org/maven2/javax/xml/ws/jaxws-api/2.3.1/jaxws-api-2.3.1.jar)
+javax.annotation-api (https://github.com/javaee/javax.annotation)
+javax.ejb-api (https://github.com/javaee/javax.ejb) 
+javax.jws-api (https://github.com/javaee/javax.jws)
+javax.servlet-api (https://github.com/javaee/servlet-spec)
+jaxb-api (https://github.com/javaee/jaxb-v2)
+jaxb-core (https://github.com/javaee/jaxb-v2)
+jaxb-impl (https://github.com/javaee/jaxb-v2)
+jaxws-api (https://github.com/javaee/metro-jax-ws)
+
+
 
 END OF COMMON DEVELOPMENT AND DISTRIBUTION LICENSE V1.1 NOTICES AND INFORMATION
 
@@ -370,10 +369,28 @@ ECLIPSE PUBLIC LICENSE, VERSION 1
 The Program includes some or all of the following that IBM obtained
 under the ECLIPSE PUBLIC LICENSE, VERSION 1 (source code available via the indicated URL):
 
+com.ibm.ws.kernel.feature.resolver (https://github.com/OpenLiberty/open-liberty)
 OSGi System Bundle [org.eclipse.osgi] https://projects.eclipse.org/projects/eclipse.equinox
 
 
+
 END OF ECLIPSE PUBLIC LICENSE, VERSION 1 NOTICES AND INFORMATION
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ECLIPSE PUBLIC LICENSE, VERSION 2
+
+The Program includes some or all of the following that IBM obtained
+under the ECLIPSE PUBLIC LICENSE, VERSION 2 (source code available via the indicated URL):
+
+com.ibm.json4j (https://github.com/OpenLiberty/open-liberty)
+feature-list (https://github.com/OpenLiberty/open-liberty)
+open_liberty_featurelist (https://github.com/OpenLiberty/open-liberty)
+websphere_liberty_base_featurelist (https://github.com/OpenLiberty/open-liberty)
+websphere_liberty_core_featurelist (https://github.com/OpenLiberty/open-liberty)
+
+
+
+END OF ECLIPSE PUBLIC LICENSE, VERSION 2 NOTICES AND INFORMATION
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ISC License
@@ -418,7 +435,7 @@ balanced-match (Copyright Isaac Z. Schlueter "i@izs.me" mailto:i@izs.me) (Copyri
 brace-expansion (Copyright Isaac Z. Schlueter <i@izs.me>) (Copyright Julian Gruber <julian@juliangruber.com>)
 browserslist (Copyright 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors)
 buffer-from (Copyright 2016-2018 Linus Unneb)
-chart-3.9.1.min.js (Copyright 2014-2022 Chart.js Contributors) (Copyright 2022 Chart.js Contributors) (Copyright 2022 Jukka Kurkela)
+chart.js (Copyright 2014-2022 Chart.js Contributors)
 chevrotain-allstar (Copyright 2022 TypeFox GmbH)
 chokidar (Copyright 2012 Paul Miller (https://paulmillr.com), Elan Shanker) (Copyright 2013 Paul Miller (http://paulmillr.com)) (Copyright Paul Miller ("https://paulmillr.com" (https://paulmillr.com)), see "LICENSE" (LICENSE) file)
 chokidar (Copyright 2012 Paul Miller https://paulmillr.com; Elan Shanker) (Copyright 2013 Paul Miller (http://paulmillr.com))
@@ -452,6 +469,7 @@ escalade (Copyright Luke Edwards) (Copyright Luke Edwards <luke.edwards05@gmail.
 find-cache-dir (Copyright James Talmage <james@talmage.io> (github.com/jamestalmage))
 find-up (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 flatpickr (Copyright 2017 Gregory Petrosyan)
+framer-motion (Copyright 2018 Framer B.V)
 fs-extra (Copyright 2011-2017 "JP Richardson" (https://github.com/jprichardson)) (Copyright 2011-2017 JP Richardson) (Copyright 2011-2017 [JP Richardson](https://github.com/jprichardson))
 fs-extra (Copyright 2011-2024 JP Richardson)
 fs-extra (Copyright Microsoft Corporation)
@@ -489,10 +507,11 @@ jsesc (Copyright Mathias Bynens <https://mathiasbynens.be/>)
 json5 (Copyright 2012-2018 Aseem Kishore)
 jsonfile (Copyright 2012-2015 JP Richardson <jprichardson@gmail.com>) (Copyright 2012-2016 JP Richardson)
 jsonfile (Copyright 2012-2015 JP Richardson <jprichardson@gmail.com>) (Copyright 2012-2016 JP Richardson) (Copyright 2012-2016 JP Richardson  <jprichardson@gmail.com>)
-jsoup (Copyright 2009-2025 a href) (Jonathan Hedley)
+jsonfile (Copyright Microsoft Corporation)
+jsoup (Copyright 2009-2026 Jonathan Hedley <https://jsoup.org/>) (Copyright 2009-2026 a href) (Jonathan Hedley)
 jszip (Copyright 2009-2016 Stuart Knightley)
 kind-of (Copyright 2014-2017 Jon Schlinkert) (Copyright 2020 "Jon Schlinkert" (https://github.com/jonschlinkert)) (Copyright 2020 [Jon Schlinkert](https://github.com/jonschlinkert))
-l10n (Copyright Microsoft Corporation)
+l10n-0.0.18.tgz(Copyright Microsoft Corporation)
 lie (Copyright 2014-2018 Calvin Metcalf) (Copyright 2014-2018 Calvin Metcalf, Jordan Harband)
 locate-path (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
 lodash (Copyright OpenJS Foundation and other contributors <https://openjsf.org/>)
@@ -501,7 +520,10 @@ lodash.debounce (Copyright jQuery Foundation and other contributors <https://jqu
 lombok (Copyright 2000-2011 INRIA) (Copyright 2009-2021 The Project Lombok Authors) (Copyright 2010 Reinier Zwitserloot)
 loose-envify (Copyright 2015 Andres Suarez <zertosh@gmail.com>)
 make-dir (Copyright Sindre Sorhus) (Copyright Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com))
-moment (Copyright JS Foundation and other contributors)
+moment (Copyright OpenJS Foundation and other contributors) (Copyright OpenJS Foundation" https://openjsf.org/ and Moment.js contributors)
+motion (Copyright 2024 Motion" https://motion.dev B.V)
+motion-dom (Copyright 2024 Motion" https://motion.dev B.V)
+motion-utils (Copyright 2024 Motion" https://motion.dev B.V)
 ms (Copyright 2020 Vercel, Inc)
 node (Copyright Microsoft Corporation)
 node-addon-api (Copyright 2017 Node.js API collaborators" (https://github.com/nodejs/node-addon-api#collaborators))
@@ -540,6 +562,8 @@ resolve-uri (Copyright 2019 Justin Ridgewell <jridgewell@google.com>)
 rfdc (Copyright 2019 David Mark Clements <david.mark.clements@gmail.com>")
 runtime (Copyright 2014 Sebastian McKenzie and other contributors)
 safe-buffer (Copyright Feross Aboukhadijeh) (Copyright Feross Aboukhadijeh" (http://feross.org))
+sass (Copyright 2006 Kirill Simonov) (Copyright 2006-2012 The Authors) (Copyright 2006-2024 Lukas Renggli) (Copyright 2006-2025 Lukas Renggli) (Copyright 2012 the Dart project authors) (Copyright 2013 Google Inc) (Copyright 2013 the Dart project authors) (Copyright 2013-2021 Brendan Duncan) (Copyright 2014 the Dart project authors) (Copyright 2015 Michael Bullington) (Copyright 2015 the Dart project authors) (Copyright 2016 Google Inc) (Copyright 2016 the Dart project authors) (Copyright 2017 Anatoly Pulyaevskiy) (Copyright 2017 the Dart project authors) (Copyright 2018 Jennifer Thakar) (Copyright 2018 the Dart project authors) (Copyright 2019 the Dart project authors) (Copyright 2020 Brett Sutton) (Copyright 2020 Leo Farias) (Copyright 2020 the Dart project authors) (Copyright 2021 Kilian Schulte) (Copyright 2021 the Dart project authors) (Copyright 2023 the Dart project authors) (Copyright 2024 the Dart project authors)
+sass (Copyright 2006 Kirill Simonov) (Copyright 2006-2012 The Authors) (Copyright 2006-2024 Lukas Renggli) (Copyright 2006-2026 Lukas Renggli) (Copyright 2012 the Dart project authors) (Copyright 2013 Google Inc) (Copyright 2013 the Dart project authors) (Copyright 2013-2021 Brendan Duncan) (Copyright 2014 the Dart project authors) (Copyright 2015 Michael Bullington) (Copyright 2015 the Dart project authors) (Copyright 2016 Google Inc) (Copyright 2016 the Dart project authors) (Copyright 2017 Anatoly Pulyaevskiy) (Copyright 2017 the Dart project authors) (Copyright 2018 Jennifer Thakar) (Copyright 2018 the Dart project authors) (Copyright 2019 the Dart project authors) (Copyright 2020 Brett Sutton) (Copyright 2020 Leo Farias) (Copyright 2020 the Dart project authors) (Copyright 2021 Kilian Schulte) (Copyright 2021 the Dart project authors) (Copyright 2023 the Dart project authors) (Copyright 2024 the Dart project authors)
 scheduler (Copyright Meta Platforms, Inc. and affiliates)
 setimmediate (Copyright 2012 Barnesandnoble.com, llc, Donavon West, and Domenic Denicola)
 shallow-clone (Copyright 2015 Jon Schlinkert) (Copyright 2019 Jon Schlinkert" (https://github.com/jonschlinkert))
@@ -553,6 +577,8 @@ style-to-js (Copyright 2020 Menglin "Mark" Xu <mark@remarkablemark.org>)
 style-to-object (Copyright 2017 Menglin "Mark" Xu <mark@remarkablemark.org>)
 tabbable (Copyright 2015 David Clark)
 template (Copyright 2014 Sebastian McKenzie and other contributors)
+temporal-polyfill (Copyright 2026 Adam Shaw)
+temporal-utils (Copyright 2026 Adam Shaw)
 toggle-selection (Copyright 2017.0 sudodoki)
 trace-mapping (Copyright 2024 Justin Ridgewell <justin@ridgewell.name>)
 traverse (Copyright 2014 Sebastian McKenzie and other contributors)
@@ -560,7 +586,7 @@ trusted-types (Copyright Microsoft Corporation)
 types (Copyright 2014 Sebastian McKenzie and other contributors)
 undici-types (Copyright Matteo Collina and Undici contributors)
 universalify (Copyright 2017 Ryan Zimmerman <opensrc@ryanzim.com>)
-update-browserslist-db (Copyright 2022 Andrey Sitnik <andrey@sitnik.ru> and other contributors)
+update-browserslist-db (Copyright 2022 Andrey Sitnik <andrey@sitnik.es> and other contributors)
 use-sync-external-store (Copyright Meta Platforms, Inc. and affiliates)
 usehooks-ts (Copyright 2020 Julien CARON)
 util-deprecate (Copyright 2014 Nathan Rajlich "nathan@tootallnate.net" (mailto:nathan@tootallnate.net)) (Copyright 2014 Nathan Rajlich <nathan@tootallnate.net>)
@@ -602,18 +628,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 END OF MIT license NOTICES AND INFORMATION
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Mozilla Public License, Version 1.1
-
-The Program includes some or all of the following that IBM
-obtained under the Mozilla Public License, Version 1.1 (source
-code available via the indicated URL):
-
-js-1.7R2.jar (https://mvnrepository.com/artifact/rhino/js/1.7R2)
-
-END OF MOZILLA PUBLIC LICENSE, VERSION 1.1 NOTICES AND INFORMATION
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 END OF IBM Application Modernization Accelerator Developer Tools NOTICES AND INFORMATION
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -621,6 +635,6 @@ END OF IBM Application Modernization Accelerator Developer Tools NOTICES AND INF
 END OF NOTICES AND INFORMATION FILE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-L/N: L-XFMJ-LE6BU6
-D/N: L-XFMJ-LE6BU6
-P/N: L-XFMJ-LE6BU6
+L/N: L-FJHB-UHWY3B
+D/N: L-FJHB-UHWY3B
+P/N: L-FJHB-UHWY3B

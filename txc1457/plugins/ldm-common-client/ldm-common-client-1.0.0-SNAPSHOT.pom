@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.openliberty.tools</groupId>
+        <artifactId>ldm-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ldm-common-client</artifactId>
+    <packaging>jar</packaging>
+
+    <name>LDM — common client library</name>
+    <description>
+        Shared Java 11 library consumed by ci.maven, ci.gradle, IDE plugins, ldm-core, and ldm-server.
+        Provides: LdmBootstrap (daemon liveness + start), DevModeLdmRegistrar (instance descriptor
+        write + /register POST), DevModeCommandSocket (command socket server), socket clients,
+        InstanceDescriptorBase (shared descriptor schema), and PluginConfigReader.
+        Absorbed from the former liberty-tools-common repository.
+    </description>
+
+    <properties>
+        <!-- Java 17: UnixDomainSocketAddress / StandardProtocolFamily.UNIX (JEP 380, Java 16)
+             are used in the socket client classes. Java 17 is the next LTS after 11 and the
+             de-facto floor for modern Maven/Gradle toolchains. Java 16 is non-LTS (EOL 2021). -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,4 +1,4 @@
-# LAB 1457 — AI-Assisted Liberty Application Development with IBM Bob
+# LAB 1457 — AI as Your Pair Programmer: Modern Enterprise Java Application Development with Liberty and IBM Bob
 
 ## Introduction
 
